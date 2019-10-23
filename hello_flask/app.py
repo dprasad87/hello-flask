@@ -9,6 +9,7 @@ class HelloWorld(Resource):
     def get(self):
         return {'hello' : 'world'}
 
+# some comment added
 
 if __name__ == '__main__':
     # app.config()
